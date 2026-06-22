@@ -4,12 +4,10 @@
 	"description": "A tiny Node.js + Express JSON API.",
 	"type": "module",
 	"main": "src/server.js",
-	"engines": {
-		"node": ">=18"
-	},
+	"engines": { "node": ">=18" },
 	"scripts": {
 		"start": "node src/server.js",
-		"test": "node --test",
+		"test": "node --test test/*.test.js",
 		"lint": "biome check ."
 	},
 	"dependencies": {
